@@ -1,0 +1,202 @@
+{
+  "refund-orders": [
+    {
+      "id": "1",
+      "reason": "Product damaged",
+      "store_name": "Electronics Store",
+      "store_logo": "../imgs/1.jpg",
+      "store_url": "https://store1.com",
+      "amount": 599.98,
+      "active": false,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Headphones",
+          "id": "item1",
+          "price": 299.99,
+          "quantity": 1
+        },
+        {
+          "name": "Charger",
+          "id": "item2",
+          "price": 29.99,
+          "quantity": 1
+        },
+        {
+          "name": "Screen Protector",
+          "id": "item3",
+          "price": 19.99,
+          "quantity": 2
+        },
+        {
+          "name": "Screen Protector",
+          "id": "item3",
+          "price": 19.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "reason": "Wrong size",
+      "store_name": "Fashion Store",
+      "store_logo": "../imgs/2.jpg",
+      "store_url": "https://store2.com",
+      "amount": 119.97,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "T-Shirt",
+          "id": "item4",
+          "price": 29.99,
+          "quantity": 3
+        },
+        {
+          "name": "Socks",
+          "id": "item5",
+          "price": 9.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "reason": "Not as described",
+      "store_name": "Home Goods",
+      "store_logo": "../imgs/3.jpg",
+      "store_url": "https://store3.com",
+      "amount": 399.98,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "Coffee Maker",
+          "id": "item6",
+          "price": 199.99,
+          "quantity": 1
+        },
+        {
+          "name": "Coffee Filters",
+          "id": "item7",
+          "price": 9.99,
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "reason": "Defective item",
+      "store_name": "Tech Store",
+      "store_logo": "../imgs/4.jpg",
+      "store_url": "https://store4.com",
+      "amount": 799.98,
+      "active": true,
+      "decision": "escalate",
+      "items": [
+        {
+          "name": "Smartphone",
+          "id": "item8",
+          "price": 599.99,
+          "quantity": 1
+        },
+        {
+          "name": "Phone Case",
+          "id": "item9",
+          "price": 19.99,
+          "quantity": 1
+        },
+        {
+          "name": "Screen Protector",
+          "id": "item10",
+          "price": 9.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "reason": "Missing parts",
+      "store_name": "DIY Store",
+      "store_logo": "../imgs/5.jpg",
+      "store_url": "https://store5.com",
+      "amount": 179.98,
+      "active": true,
+      "decision": "reject",
+      "items": [
+        {
+          "name": "Tool Set",
+          "id": "item11",
+          "price": 149.99,
+          "quantity": 1
+        },
+        {
+          "name": "Screwdriver",
+          "id": "item12",
+          "price": 9.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "reason": "Wrong color",
+      "store_name": "Home Decor",
+      "store_logo": "../imgs/6.jpg",
+      "store_url": "https://store6.com",
+      "amount": 499.98,
+      "active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Area Rug",
+          "id": "item13",
+          "price": 249.99,
+          "quantity": 1
+        },
+        {
+          "name": "Curtains",
+          "id": "item14",
+          "price": 49.99,
+          "quantity": 2
+        },
+        {
+          "name": "Pillows",
+          "id": "item15",
+          "price": 19.99,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "reason": "Size mismatch",
+      "store_name": "Sports Store",
+      "store_logo": "../imgs/7.jpg",
+      "store_url": "https://store7.com",
+      "amount": 359.98,
+      "active": true,
+      "decision": "accept",
+      "items": [
+        {
+          "name": "Running Shoes",
+          "id": "item16",
+          "price": 179.99,
+          "quantity": 1
+        },
+        {
+          "name": "Socks",
+          "id": "item17",
+          "price": 9.99,
+          "quantity": 2
+        },
+        {
+          "name": "Water Bottle",
+          "id": "item18",
+          "price": 19.99,
+          "quantity": 4
+        }
+      ]
+    }
+  ]
+}
