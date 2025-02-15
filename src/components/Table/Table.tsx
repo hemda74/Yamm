@@ -4,7 +4,7 @@ import { LoadingSpinner } from '../common/LoadingSpinner';
 import { NoData } from '../common/NoData';
 import { TablePagination } from './TablePagination';
 
-// Styled Components
+
 const TableContainer = styled.div`
     background: ${({ theme }) => theme.colors.white};
     border-radius: ${({ theme }) => theme.borderRadius.large};
