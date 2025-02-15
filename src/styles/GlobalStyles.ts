@@ -32,6 +32,8 @@ export const GlobalStyles = createGlobalStyle`
       Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #2d3748;
     overflow-x: hidden;
+    max-width: 100%;
+  
     -webkit-overflow-scrolling: touch;
   }
 
@@ -65,4 +67,4 @@ export const GlobalStyles = createGlobalStyle`
   a {
     -webkit-tap-highlight-color: transparent;
   }
-`; 
+`;

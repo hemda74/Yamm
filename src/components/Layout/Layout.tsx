@@ -12,14 +12,18 @@ const LayoutContainer = styled.div`
 `;
 
 const Main = styled.main<{ $isOpen: boolean }>`
+overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
     flex-grow: 1;
-    padding: 24px;
+ 
     margin-left: ${props => props.$isOpen ? `${DRAWER_WIDTH}px` : '64px'};
     transition: margin ${({ theme }) => theme.transitions.default};
     
     @media (max-width: 768px) {
-        margin-left: 64px;
-        padding: 16px;
+    
     }
 `;
 
