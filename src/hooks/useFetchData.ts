@@ -10,7 +10,7 @@ const useFetchData = <T>(url: string) => {
 		const fetchData = async () => {
 			try {
 				const response = await axios.get<T>(
-					`http://localhost:3001${url}`
+					`https://json-server-nine-jade.vercel.app/${url}`
 				);
 				setData(response.data);
 			} catch (err) {

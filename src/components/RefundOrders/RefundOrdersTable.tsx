@@ -6,7 +6,6 @@ import { toast } from 'react-hot-toast';
 import { Table } from '../Table/Table';
 import { RefundOrder, DecisionType } from '../../types';
 
-
 const Select = styled.select`
     padding: 8px;
     border-radius: 4px;
@@ -87,13 +86,24 @@ const ActionButton = styled.button`
 `;
 
 const RefundTableContainer = styled.div`
+    margin: 20px 0;
+    
     .refund-orders-table {
         @media (max-width: ${({ theme }) => theme.breakpoints.sm}) {
             margin: 10px -16px;
             border-radius: 0;
             
             table {
-                min-width: 500px;
+                min-width: 500px; 
+            }
+            
+            th, td {
+                padding: 8px;
+                font-size: 13px;
+            }
+            
+            .optional-column {
+                display: none;
             }
             
             .store-name {
@@ -114,7 +124,6 @@ const RefundTableContainer = styled.div`
                 text-align: right;
             }
             
-            // Make action buttons more touch-friendly
             button {
                 padding: 12px;
             }
@@ -244,4 +253,4 @@ export const RefundOrdersTable: React.FC<RefundOrdersTableProps> = ({
             />
         </RefundTableContainer>
     );
-}; 
+};
